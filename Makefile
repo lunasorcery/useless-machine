@@ -1,2 +1,7 @@
 useless-machine: main.cpp
-	clang main.cpp -o useless-machine -lstdc++ -std=c++17
+	${CXX} main.cpp -o useless-machine -lstdc++ -std=c++17
+
+clean:
+	rm -f useless-machine
+
+.PHONY: clean
