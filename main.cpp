@@ -3,6 +3,8 @@
 #include <csignal>
 #include <ctime>
 #include <random>
+#include <cstring>
+#include <string>
 #include <thread>
 #include <chrono>
 
